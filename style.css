@@ -36,8 +36,8 @@ p {
 }
 
 img {
+  display: block;
   width: 100%;
-  margin: 0.5em 0;
 }
 
 .img-banner {
@@ -67,4 +67,21 @@ li {
 
 .align-right {
   margin-left: auto;
+}
+
+button {
+  background-color: #cd6858;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-family: inherit;
+  font-weight: bold;
+  align-self: center;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
